@@ -18,3 +18,4 @@ Here at `./exercises` you can find many exercises which are perfect to start wit
 | Number  | Title | Link  |
 | :-----: | :---: | :---: |
 | 1 | Guess Number Game  | https://www.youtube.com/watch?v=BRmmzlzqfyY |
+| 2 | Rocket Launch | https://youtu.be/bXFmL6tebWA |

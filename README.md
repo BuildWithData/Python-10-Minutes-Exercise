@@ -19,3 +19,4 @@ Here at `./exercises` you can find many exercises which are perfect to start wit
 | :-----: | :---: | :---: |
 | 1 | Guess Number Game  | https://www.youtube.com/watch?v=BRmmzlzqfyY |
 | 2 | Rocket Launch | https://youtu.be/bXFmL6tebWA |
+| 3 | Pizza Order | https://youtu.be/Ma2_kJyzWoo |

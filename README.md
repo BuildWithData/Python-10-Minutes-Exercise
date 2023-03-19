@@ -22,3 +22,4 @@ Here at `./exercises` you can find many exercises which are perfect to start wit
 | 3 | Pizza Order | https://youtu.be/Ma2_kJyzWoo |
 | 4 | Rock Paper Scissors | https://youtu.be/wtakDdQ5DN0 |
 | 5 | Contacts App | https://youtu.be/wxOUatcYfJM |
+| 6 | Dice Roll | https://youtu.be/Yg7FUgTmPxQ |

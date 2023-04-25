@@ -25,3 +25,4 @@ Here at `./exercises` you can find many exercises which are perfect to start wit
 | 6 | Dice Roll | https://youtu.be/Yg7FUgTmPxQ |
 | 7 | Blackjack | https://youtu.be/qdjYjRxAbpE |
 | 8 | Guess Word Game | https://youtu.be/aSKreQUjPI4 |
+| 9 | Clock App | https://youtu.be/CUuH-5kuxV0 |

@@ -2,6 +2,50 @@ import os
 import random
 
 
+def get_images_next_to_each_other(left: str, right: str, l_label: str, r_label: str) -> str:
+
+    SCREEN_WIDTH = os.get_terminal_size().columns
+
+    out = []
+
+    l_image = IMAGE[left].split("\n")
+    r_image = IMAGE[right].split("\n")
+
+    n_left = [len(l) for l in l_image]
+    n_right = [len(l) for l in r_image]
+
+    for n in range(max(len(n_left), len(n_right))):
+
+        try:
+            l = l_image[n]
+        except IndexError:
+            l = ""
+
+        l += " " * (SCREEN_WIDTH // 2 - len(l))
+
+        try:
+            l += r_image[n]
+        except IndexError:
+            l += ""
+
+        l = "".join(l)
+
+        out.append(l)
+
+    out.append(" ")
+
+    footer = l_label + ": " + left
+    footer += " " * (SCREEN_WIDTH // 2 - len(footer))
+    footer += r_label + ": " + right
+    out.append(footer)
+
+    out.append(" ")
+
+    out = "\n".join(out)
+
+    return out
+
+
 __doc__ = """
 
     - implement rock paper scissors lizard spock, as Sheldon explains:
@@ -114,9 +158,9 @@ while game_is_on:
 
     computer = random.choice(list(IMAGE.keys()))
 
-    print(IMAGE[player])
-    print("Computer:", computer)
-    print(IMAGE[computer])
+    image = get_images_next_to_each_other(player, computer, "You", "Computer")
+
+    print(image)
 
     if player == computer:
         print("It's a tie")

@@ -48,7 +48,7 @@ def get_images_next_to_each_other(left: str, right: str, l_label: str, r_label: 
 
 __doc__ = """
 
-    - implement rock paper scissors lizard spock, as Sheldon explains:
+Write a program to play rock paper scissors lizard spock:
 
         scissors cuts paper
         paper covers rock
@@ -61,6 +61,11 @@ __doc__ = """
         Spock vaporizes rock
         and as it always has
         rock crushes scissors
+
+    sources:
+
+        https://the-big-bang-theory.com/rock-paper-scissors-lizard-spock/
+        https://www.youtube.com/watch?v=x5Q6-wMx-K8
 
 """
 
@@ -96,7 +101,7 @@ IMAGE = {
                _.--._       /|
              .'()..()`.    / /
             ( `-.__.-' )  ( (
-             \        /    \ \ 
+             \        /     \ 
               \      /      ) )
             .' -.__.- `.-.-'_.'
           .'  /-____-\  `.-'
@@ -143,7 +148,7 @@ COMPUTER_LOSE = {
     "paper": ["rock", "spock"],
     "scissors": ["paper", "lizard"],
     "spock": ["rock", "scissors"],
-    "lizard": ["paper", "spock"],
+    "lizard": ["paper", "spock"]
 }
 
 player = None
@@ -159,7 +164,6 @@ while game_is_on:
     computer = random.choice(list(IMAGE.keys()))
 
     image = get_images_next_to_each_other(player, computer, "You", "Computer")
-
     print(image)
 
     if player == computer:

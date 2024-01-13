@@ -27,3 +27,4 @@ Here at `./exercises` you can find many exercises which are perfect to start wit
 | 8 | Guess Word Game | https://youtu.be/aSKreQUjPI4 |
 | 9 | Clock App | https://youtu.be/CUuH-5kuxV0 |
 | 10 | Matrix | https://youtu.be/vLwWzACWeIk |
+| 11 | Rock Paper Scissors Lizard Spock | https://youtu.be/hKCi5g__suw |
